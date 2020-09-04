@@ -1,0 +1,29 @@
+name = 'michael'
+
+age = '40'
+
+language = 'python'
+
+
+
+# 1. %-formatting
+
+print("Hi, I am %s. I am %d year old. I like to use %s"%(name, age, language))
+
+
+# 2. string.formatting
+
+
+print("Hi, I am { }. I am { } year old. I like to use { }".format(name, age, language))
+
+
+
+# 3. f-string
+
+# python 3.6이상 버전부터 지원하는 기능.
+
+# 위의 1, 2 방식에 비해서 가독성 짱!!!
+
+
+
+print(f'Hi, I am {name}. I am {age} year old. I like to use {language}')
